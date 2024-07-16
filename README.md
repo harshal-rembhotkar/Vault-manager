@@ -37,11 +37,10 @@ To check if `google.com` is up or down on the default port (80):
 
 ##Files
 
-`main.go`
+main.go
 This file contains the main function that initializes the CLI application and handles user input. It uses the `urfave/cli` package to define the command-line flags and action.
 
-`check.go`
-
+check.go
 This file contains the Check function that performs the actual health check by attempting to establish a TCP connection to the specified domain and port.
 
 
