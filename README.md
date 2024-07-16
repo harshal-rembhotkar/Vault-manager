@@ -1,9 +1,9 @@
 # go-website-health
 
-## Description
-`go-website-health` is a tiny tool written in Go that checks if a given domain is up or down. It uses the TCP protocol to determine the reachability of the domain.
+# Description
+`go-website-health` is a tiny program written in Go that checks if a given domain is up or down. It uses the TCP protocol to determine the reachability of the domain.
 
-## Installation
+# Installation
 
 1. Make sure you have Go installed on your machine. You can download it from [here](https://golang.org/dl/).
 2. Clone this repository:
@@ -18,18 +18,16 @@
     ```sh
     go get github.com/urfave/cli/v2
     ```
-5. Build the project:
-    ```sh
-    go build -o website-health-checker
-    ```
 
-## Usage
+ 
+
+# Usage
 
 Run the following command to check if a domain is up or down:
 ```sh
 `./website-health-checker --domain <domain-name> `
 
-Flags
+#Flags
 `--domain, -d`: Domain name to check. (Required)
 `--port, -p`: Port number to check. (Optional, defaults to 80)
 Examples
@@ -37,7 +35,7 @@ To check if `google.com` is up or down on the default port (80):
 
 `./website-health-checker --domain google.com`
 
-`Files`
+#Files
 `main.go`
 This file contains the main function that initializes the CLI application and handles user input. It uses the `urfave/cli` package to define the command-line flags and action.
 
