@@ -28,10 +28,13 @@ Run the following command to check if a domain is up or down:
   `./website-health-checker --domain <domain-name> `
 
  Flags
+
 ` --domain, -d`: Domain name to check. (Required)
+
 ` --port, -p`: Port number to check. (Optional, defaults to 80)
 
 Examples
+
    To check if `google.com` is up or down on the default port (80):
 
 `  ./website-health-checker --domain google.com`
