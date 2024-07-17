@@ -25,24 +25,24 @@
 
 Run the following command to check if a domain is up or down:
 ```sh
-`./website-health-checker --domain <domain-name> `
+  `./website-health-checker --domain <domain-name> `
 
  Flags
-`--domain, -d`: Domain name to check. (Required)
-`--port, -p`: Port number to check. (Optional, defaults to 80)
+` --domain, -d`: Domain name to check. (Required)
+` --port, -p`: Port number to check. (Optional, defaults to 80)
 
 Examples
-To check if `google.com` is up or down on the default port (80):
+   To check if `google.com` is up or down on the default port (80):
 
-`./website-health-checker --domain google.com`
+`  ./website-health-checker --domain google.com`
 
 # Files 
 
-`main.go`
-This file contains the main function that initializes the CLI application and handles user input. It uses the `urfave/cli` package to define the command-line flags and action.
+1. `main.go`
+    This file contains the main function that initializes the CLI application and handles user input. It uses the `urfave/cli` package to define the command-line flags and action.
 
-`check.go`
-This file contains the Check function that performs the actual health check by attempting to establish a TCP connection to the specified domain and port.
+2. `check.go`
+    This file contains the Check function that performs the actual health check by attempting to establish a TCP connection to the specified domain and  port.
 
 
 
