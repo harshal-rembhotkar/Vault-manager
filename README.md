@@ -8,7 +8,7 @@
 1. Make sure you have Go installed on your machine. You can download it from [here](https://golang.org/dl/).
 2. Clone this repository:
     ```sh
-    git clone <repository-url>
+    git clone https://github.com/harshal-rembhotkar/go-website-health.git
     ```
 3. Navigate to the project directory:
     ```sh
