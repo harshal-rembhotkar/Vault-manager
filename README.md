@@ -35,9 +35,9 @@ Run the following command to check if a domain is up or down:
 Examples
 
    To check if `google.com` is up or down on the default port (80):
-
-`  ./website-health-checker --domain google.com`
-
+```sh
+  ./website-health-checker --domain google.com
+```
 # Files 
 
 1. `main.go`
@@ -45,4 +45,3 @@ Examples
 
 2. `check.go`
     This file contains the Check function that performs the actual health check by attempting to establish a TCP connection to the specified domain and  port.
-
