@@ -1,6 +1,6 @@
 # go-website-health
 
-`go-website-health` is a tiny program written in Go that checks if a given domain is up or down. It uses the TCP protocol to determine the reachability of the domain.
+`go-website-health` is a program written in Go that checks if a given domain is up or down. It uses the TCP protocol to determine the reachability of the domain.
 
 # Installation
 
@@ -45,8 +45,4 @@ Examples
 
 2. `check.go`
     This file contains the Check function that performs the actual health check by attempting to establish a TCP connection to the specified domain and  port.
-
-
-
-
-
+```
