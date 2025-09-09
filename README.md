@@ -83,12 +83,3 @@ To build and test this Anchor project, follow these steps:
    ```
 
 Note: Make sure you have a Solana wallet set up and funded with SOL for deployment costs.
-
-## Additional Notes
-
-- This contract uses the `anchor_lang` and `anchor_spl` crates for Solana program development.
-- Proper error handling is implemented for insufficient funds scenarios.
-- The contract uses PDAs for secure token management.
-- Always ensure you have the latest version of Anchor and its dependencies installed.
-
-For more information on Anchor development, visit the [official Anchor documentation](https://www.anchor-lang.com/).
